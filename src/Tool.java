@@ -1,6 +1,6 @@
 public abstract class Tool implements Workable {
 
-    Workable component = new Workable() {
+    Workable workable = new Workable() {
         @Override
         public void work() {
         }
@@ -8,7 +8,7 @@ public abstract class Tool implements Workable {
 
 
     public Tool(Workable workable) {
-        this.component = workable;
+        this.workable = workable;
     }
 
     public Tool() {
@@ -16,6 +16,6 @@ public abstract class Tool implements Workable {
 
     @Override
     public void work() {
-        component.work();
+        workable.work();
     }
 }

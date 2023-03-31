@@ -10,6 +10,6 @@ public class Knife extends Tool {
     @Override
     public void work() {
         System.out.println("режу");
-        component.work();
+        workable.work();
     }
 }

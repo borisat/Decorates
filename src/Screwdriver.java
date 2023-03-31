@@ -11,6 +11,6 @@ public class Screwdriver extends Tool {
     @Override
     public void work() {
         System.out.println("Верчу кручу");
-        component.work();
+        workable.work();
     }
 }

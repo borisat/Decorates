@@ -12,6 +12,6 @@ public class Naildrawer extends Tool {
     @Override
     public void work() {
         System.out.println("Тащу гвоздь");
-        component.work();
+        workable.work();
     }
 }
